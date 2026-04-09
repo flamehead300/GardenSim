@@ -21,7 +21,7 @@ version = 1.0.0
 # NOTE: tkinter is a CPython built-in that is NOT available on Android/iOS.
 # If you want to deploy to mobile you must port the UI to Kivy or KivyMD.
 # For a desktop build (target = desktop, see below) tkinter works fine.
-requirements = python3,kivy,astral,tzdata,anthropic
+requirements = python3,kivy,astral,tzdata,anthropic,kivy_garden.mapview
 
 # Supported orientations
 orientation = portrait
